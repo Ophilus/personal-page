@@ -207,6 +207,7 @@ footer span {
 #slider {
     width: 82%;
     display: flex;
+    
 }
 
 #slider ul {
@@ -221,8 +222,9 @@ footer span {
 
 .button {
     background-repeat: no-repeat;
-    height: 150px;
-    width: 100px;
+    background-size: contain;
+    height: 100px;
+    width: 150px;
     align-self: center;
 }
 
