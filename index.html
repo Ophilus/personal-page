@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="iphone 5" content="width=568, initial-scale=1">
+    <title>Travel to the USA</title>
+    <link rel="shortcut icon" type="image/png" href="img/flagicon.png" />
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="css/index.css" type="text/css" />
+</head>
+
+<body>
+    <div id="burgermenu">
+        <button class="hamburger">&#9776;</button>
+        <button class="cross">&#735;</button></div>
+    <div id="banner">
+
+        <div id="header-nav">
+
+            <a href="index.html" class="smooth">HOME</a>
+            <a href="#program" class="smooth">PROGRAM</a>
+            <a href="#ourteam" class="smooth">OUR TEAM</a>
+            <a href="#review" class="smooth">REVIEW</a>
+
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li><a href="index.html" class="smooth">HOME</a></li>
+                <li><a href="#program" class="smooth">PROGRAM</a></li>
+                <li><a href="#ourteam" class="smooth">OUR TEAM</a></li>
+                <li><a href="#review" class="smooth">REVIEW</a></li>
+            </ul>
+        </div>
+        <div id="banner-text">
+            <span>Travel to the</span>
+            <h1> USA</h1>
+        </div>
+        <div>
+            <button onclick="window.location.href='#openModal'">START BOOKING</button>
+        </div>
+        <div id="openModal" class="modalDialog">
+            <div>
+                <a href="#close" title="Закрити" class="close">X</a>
+                <h2>BOOKING YOUR TRAVEL</h2>
+                <form>
+                    <input type="hidden" id="travel" value="Travel to the USA">
+                    <br>
+                    <label>Name:
+            <input type="text" id="name">
+        </label>
+                    <br>
+                    <br>
+                    <label>E-mail:
+            <input type="email" id="email">
+        </label>
+                    <br>
+                    <br>
+                    <input type="submit">
+                </form>
+                <div id="form-result"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <section id="program">
+        <span>What should you be prepared for?</span>
+        <h2>PROGRAM</h2>
+        <div class="bgimg" id="borderDiv">
+            <div id="slider">
+                <a id="bt_prev" href="" class="button"></a>
+                <ul>
+                    <li><img id="first-container" src="img/NY_EmpireStateBuilding.jpg" alt='EmpireStateBuilding'></li>
+                    <li><img id="second-container" src="img/NY_StatueOfLiberty.jpg" alt='StatueOfLiberty'></li>
+                    <li><img id="third-container" src="img/NY_FlatironBuilding.jpg" alt='FlatironBuilding'></li>
+                    <li><img id="fourth-container" src="img/NY_Manh.Bridge.jpg" alt='ManhetenBridge.jpg'></li>
+                </ul>
+                <a id="bt_next" href="" class="button"></a>
+            </div>
+            <span id="title-city">New York</span>
+        </div>
+    </section>
+    <section id="ourteam">
+        <span>Who will bring you to all places?</span>
+        <h2>OUR TEAM</h2>
+        <div class="bgimg">
+            <img src="img/our_team.png" alt='ourTeam'><br>
+            <div><span>Maryana Dudkina</span><span>Ken Fish</span><span>Lauren Wright</span></div>
+        </div>
+    </section>
+    <section id="review">
+        <span>What did others thought about it?</span>
+        <h2>REVIEW</h2>
+        <div id="comment-block">
+            <div class="comment">
+                <h2>Awesome!</h2>
+                <span class="comment-text">Shopping is inexpensive. In general ... The weather is good. Cities LA, New York - super, you can watch many times.</span>
+                <div><img src="img/nancy.png" alt="Nancy comment"><span>Nancy</span></div>
+            </div>
+            <div class="comment">
+                <h2>Cool!</h2>
+                <span class="comment-text">I started my acquaintance with this amazing country in 2010. And the last four years I've been trying to visit the US in every vacation. And especially your company helps me in this.</span>
+                <div><img src="img/thomas.png" alt="Thomas comment"><span>Thomas</span></div>
+            </div>
+            <div class="comment">
+                <h2>The best!</h2>
+                <span class="comment-text">Last summer, I was in the US under the Work and Travel program. For 3 months I worked hard to make the most unforgettable journey in my life. And this summer, on your program did it, it was cool!</span>
+                <div><img src="img/ben.png" alt="Ben comment"><span>Ben</span></div>
+            </div>
+
+        </div>
+    </section>
+
+    <div id="additionalInformation">
+        <div>
+            <h3>RECENT POST</h3>
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/United_States">United States</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/New_York_City">New York</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Los_Angeles">Los Angeles</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Washington,_D.C.">Washington</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Miami">Miami</a></li>
+
+            </ul>
+        </div>
+        <div>
+            <h3>ADDRESS</h3>
+            <p>Address: Dragomanov Street, 50, Lviv, Lviv Oblast, Ukraine</p>
+            <p>Phone: +380934563125</p>
+        </div>
+    </div>
+    <footer>
+        Copyright &copy; 2017 Travel to the USA, All Rights Reserved
+        <span id="footer-nav">
+
+            <a href="index.html" class="smooth">HOME</a>
+            <a href="#program" class="smooth">PROGRAM</a>
+            <a href="#ourteam" class="smooth">OUR TEAM</a>
+            <a href="#review" class="smooth">REVIEW</a>
+
+        </span>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="js/jquery-sample.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/smooth-scroll.js"></script>
+</body>
+
+</html>
