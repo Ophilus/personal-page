@@ -418,8 +418,8 @@ footer span {
         display: block
     }
     .modalDialog>div {
-        width: 90%;
-        font-size: 2em;
+        width: 70%;
+        font-size: 1em;
     }
     #review #comment-block {
         flex-wrap: wrap;
@@ -437,8 +437,8 @@ footer span {
         display: block
     }
     .modalDialog>div {
-        width: 90%;
-        font-size: 2em;
+        width: 70%;
+        font-size: 1em;
     }
     #review #comment-block {
         flex-wrap: wrap;
